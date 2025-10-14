@@ -1,1 +1,0 @@
-function toggleAdditionalFields(){const checkboxes=document.querySelectorAll('input[type="checkbox"]');const additionalFields=document.getElementById('additional-fields');let anyChecked=!1;checkboxes.forEach(checkbox=>{if(checkbox.checked){anyChecked=!0}});additionalFields.style.display=anyChecked?'block':'none'}
